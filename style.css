@@ -15,10 +15,6 @@
     align-items: center;
 }
 
-#slackProfilePicture {
-    height: 300px;
-}
-
 .slackDisplayName {
     font-size: 50px;
 }

@@ -7,19 +7,20 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body class="main">
+
+    <h1>Current date and time:</h1>
+    <span id="currentTimeUTC"></span>
+    
     <div class="section">
         <img id="slackProfilePicture" 
     src="./Images/profile-400px.jpg"  alt="Nate">
     
-    <h1>Current date and time:</h1>
-    <span id="currentTimeUTC"></span>
+        <h2 id="slackDisplayName">Nathanael Nonyelim</h2> <span id="slackEmail">natty2real@yahoo.com</span>
+        
     </div>
 
-    <h2 id="slackDisplayName"></h2>
+    
 
-    <h3 id="slackEmail"></h3>
-
-    <h4 id="slackEmail"></h4>
 
     <p id="myparagraph">MY GOALS FOR THE NEXT 2YEARS IN TECH FIELD</p>
 
@@ -33,7 +34,7 @@
     <a href="keyword.dog" id="keywordLink">Keyword Site</a>
     
     <script>
-        
+
       function updateDateTime() {
 
         const now = new Date();
